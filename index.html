@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>My Music Market v2</title>
+
+    <style>
+        .navbar-brand span {
+            animation: logoAnimation 3s infinite alternate;
+            border-bottom: 1px solid #fff;
+        }
+
+        .card{
+            max-width: 18rem;
+        }
+
+        .card:hover{
+            cursor: pointer;
+        }
+
+        .card img{
+            width: 200px;
+            margin: 0 auto;
+        }        
+
+        @keyframes logoAnimation {
+            from{
+                color: #fff;
+                border-color: #fff;
+            }
+            to{
+                color: #B976DD;
+                border-color: #B976DD ;
+            }
+        }
+    </style>
+  </head>
+  <body class="bg-light">
+    <header class="bg-dark">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html">
+                    <img src="https://www.shareicon.net/download/2017/01/19/873386_network.ico" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                    <span>Music Market</span>
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Anasayfa</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="magaza.html">Mağaza</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    <main class="pt-5">
+        <div class="container">
+            <h1 class="text-center">Merhaba!</h1>
+            <p class="text-center border-bottom pb-2">Online müzik marketimize hoşgeldiniz! İhtiyacınız olan temel, orta ve profesyonel seviyede kullanabileceğiniz bir çok enstrümanı web sitemizde bulabilir, bilgi alabilir, bizimle iletişime geçerek sipariş verebilirsiniz.</p>
+            <h2>Kategoriler</h2>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-33">
+                    <div class="card text-center p-2">
+                        <img src="https://productimages.hepsiburada.net/s/23/375/10060219678770.jpg" class="card-img-top" alt="Gitar">
+                        <div class="card-body">
+                          <h5 class="card-title">Gitar</h5>
+                          <a href="magaza.html" class="btn btn-primary">Mağazaya Git</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                    <div class="card text-center p-2">
+                        <img src="https://productimages.hepsiburada.net/s/22/375/9943710105650.jpg" class="card-img-top" alt="Gitar">
+                        <div class="card-body">
+                          <h5 class="card-title">Davul</h5>
+                          <a href="magaza.html" class="btn btn-primary">Mağazaya Git</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                    <div class="card text-center p-2">
+                        <img src="https://productimages.hepsiburada.net/s/114/375/110000061668850.jpg" class="card-img-top" alt="Gitar">
+                        <div class="card-body">
+                          <h5 class="card-title">Piyano</h5>
+                          <a href="magaza.html" class="btn btn-primary">Mağazaya Git</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 mb-3">
+                    <div class="card text-center p-2">
+                        <img src="https://productimages.hepsiburada.net/s/6/375/9724451979314.jpg" class="card-img-top" alt="Gitar">
+                        <div class="card-body">
+                          <h5 class="card-title">Keman</h5>
+                          <a href="magaza.html" class="btn btn-primary">Mağazaya Git</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
